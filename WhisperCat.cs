@@ -190,6 +190,7 @@ namespace BusinessCats
             return true;
         }
 
+        //Learn some things (j.camacho)
         public string SendWhisper(Conversation conversation, Participant participant, string text)
         {
             var conv = seriousBusiness.FindConversation(conversation);
